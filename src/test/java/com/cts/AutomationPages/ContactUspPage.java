@@ -32,7 +32,7 @@ public class ContactUspPage {
 	}
 	public  void uploadFile(WebDriver driver, String file) {
 		JavascriptExecutor js=(JavascriptExecutor) driver;
-		js.executeScript("document.getElementsByClassName('filename')[0].innerHTML='"+file+"'");
+		js.executeScript("document.getElementsByClassName('filename')[0].innerHTML=';"+file+"'");
 		
 	}
 	public  void enterMessage(WebDriver driver,String message) {

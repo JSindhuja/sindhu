@@ -17,7 +17,7 @@ public class AddressPage {
 		
 	}
 	public  void billingUpdate() {
-		driver.findElement(billingLoc).click();
+driver.findElement(billingLoc).click();
 		
 	}
 	public  void  clickOnProceed() {
